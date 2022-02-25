@@ -1,0 +1,42 @@
+.speechRecognitionIndicatorOff{
+    opacity: 0;
+}
+
+.speechRecognitionIndicatorOn{
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
+    background-color: rgba(89, 178, 208, 0.3);
+}
+
+#remoteArea{
+    width: 80%;
+    float: right;
+}
+
+.remoteUserArea1{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.remoteUserArea2{
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 4%;
+}
+
+.remoteUserArea3{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 9%;
+}
